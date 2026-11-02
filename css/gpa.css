@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightyellow;
+}
+.fsngbgc {
+  position: absolute;
+  max-width: 1100px;
+  width: 100%;
+  text-align: justify;
+  padding: 10px 20px 20px;
+  background-color: black;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgb(red, green, blue);
+}
+.light {
+  width: 30px;
+  height: 120px;
+  background-color: darkslategrey;
+  margin: 2px 2px;
+  color: white;
+  text-align: center;
+}
+.sola {
+  flex-direction: row-reverse;
+  display: flex;
+  float: right;
+  margin: 9px 10px;
+}
+p {
+  color: white;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.cnt {
+  display: grid;
+  grid-template-columns: 230px 200px 200px 200px 230px;
+}
+.both {
+  border-radius: 50%;
+  height: 200px;
+  margin: 9px 10px;
+  background-image: url(../FSNG\ LOGO.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: brightness(70%);
+  color: red;
+}
+.data {
+  display: grid;
+  grid-gap: 4.4px;
+  height: 590px;
+  width: 100%;
+  border-radius: 10px;
+  grid-template-columns: 200px 200px 200px 200px 250px;
+}
+.smalldata {
+  display: grid;
+  grid-template-columns: 130px 130px 200px 200px 200px 200px;
+  grid-gap: 3.3;
+  height: 400px;
+}
+.display {
+  height: 190px;
+  width: 100%;
+  border-radius: 10px;
+  text-align: right;
+  font-size: 30px;
+  padding: 20px;
+}
+.scren {
+  width: 100%;
+  height: 120px;
+}
+::placeholder {
+  font-size: 40px;
+  text-align: center;
+
+  color: black;
+  text-transform: uppercase;
+}
+.hala input {
+  background-color: gold;
+}
+button {
+  background-color: gold;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.btn {
+  color: red;
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  bottom: 120px;
+}
